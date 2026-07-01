@@ -23,4 +23,4 @@
 
 <script src="https://unpkg.com/alpinejs" defer></script>
 
-<link rel="stylesheet" href="{{ env('STORAGE_URL') }}/assets/style.css">
+<link rel="stylesheet" href="/assets/style.css">
