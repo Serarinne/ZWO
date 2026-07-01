@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://zzzwallpaper.web.id/sitemap.xml
