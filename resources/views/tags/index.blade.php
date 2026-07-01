@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Wallpaper Tags & Categories - {{ env('APP_NAME') }}</title>
+    <title>Wallpaper Tags & Categories | {{ env('APP_NAME') }}</title>
 
     <link rel="canonical" href="{{ route('tags.index') }}" />
 
@@ -18,14 +18,14 @@
 
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Wallpaper Tags & Categories - {{ env('APP_NAME') }}" />
+    <meta property="og:title" content="Wallpaper Tags & Categories | {{ env('APP_NAME') }}" />
     <meta property="og:description"
         content="Explore our extensive ZZZ wallpaper tags directory. Find the perfect Zenless Zone Zero wallpapers and 4K backgrounds by categories like outfits, factions, styles, and themes." />
     <meta property="og:url" content="{{ route('tags.index') }}" />
     <meta property="og:site_name" content="{{ env('APP_NAME') }}" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Wallpaper Tags & Categories - {{ env('APP_NAME') }}" />
+    <meta name="twitter:title" content="Wallpaper Tags & Categories | {{ env('APP_NAME') }}" />
     <meta name="twitter:description"
         content="Explore our extensive ZZZ wallpaper tags directory. Find the perfect Zenless Zone Zero wallpapers and 4K backgrounds by categories like outfits, factions, styles, and themes." />
     <meta name="twitter:url" content="{{ route('tags.index') }}" />

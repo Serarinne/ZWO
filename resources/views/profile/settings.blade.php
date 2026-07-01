@@ -6,7 +6,7 @@
     <meta name="robots" content="noindex, nofollow" />
     <link rel="canonical" href="{{ route('settings.edit') }}" />
     
-    <title>Content Preferences - {{ env('APP_NAME') }}</title>
+    <title>Content Preferences | {{ env('APP_NAME') }}</title>
     <x-file-assets />
     
     <style>

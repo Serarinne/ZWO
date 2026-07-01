@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>About Us - {{ env('APP_NAME') }}</title>
+    <title>About Us | {{ env('APP_NAME') }}</title>
     
-    <meta name="title" content="About Us - {{ env('APP_NAME') }}">
+    <meta name="title" content="About Us | {{ env('APP_NAME') }}">
     <meta name="description" content="Discover {{ env('APP_NAME') }}, the community hub for sharing and appreciating high-quality Zenless Zone Zero wallpapers and art. Join the collection today.">
     <meta name="keywords" content="zzz wallpapers, about zzz wallpapers, zenless zone zero wallpaper, zenless zone zero art, wallpaper community, high quality zzz wallpaper, game fanart gallery">
     <meta name="robots" content="index, follow">
@@ -15,13 +15,13 @@
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ route('about') }}">
-    <meta property="og:title" content="About Us - {{ env('APP_NAME') }}">
+    <meta property="og:title" content="About Us | {{ env('APP_NAME') }}">
     <meta property="og:description" content="Discover {{ env('APP_NAME') }}, the community hub for sharing and appreciating high-quality Zenless Zone Zero wallpapers and art.">
     <meta property="og:site_name" content="{{ env('APP_NAME') }}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="{{ route('about') }}">
-    <meta name="twitter:title" content="About Us - {{ env('APP_NAME') }}">
+    <meta name="twitter:title" content="About Us | {{ env('APP_NAME') }}">
     <meta name="twitter:description" content="Discover {{ env('APP_NAME') }}, the community hub for sharing and appreciating high-quality Zenless Zone Zero wallpapers and art.">
 
     @include('components.file-assets')

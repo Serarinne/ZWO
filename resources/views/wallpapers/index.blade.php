@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ env('APP_NAME') }} - Zenless Zone Zero Wallpaper 4K & HD</title>
+    <title>{{ env('APP_NAME') }} | Zenless Zone Zero Wallpaper 4K & HD</title>
     <link rel="canonical" href="{{ route('home') }}" />
     <meta name="description"
         content="Download ZZZ wallpaper in HD and 4K for phone and PC. Explore Zenless Zone Zero wallpapers, zzz backgrounds, and fanart featuring Anby, Nicole, Billy, Nekomata, and Ellen.">

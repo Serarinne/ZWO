@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>List of All Agents - {{ env('APP_NAME') }}</title>
+    <title>List of All Agents | {{ env('APP_NAME') }}</title>
 
     <link rel="canonical" href="{{ route('characters.index') }}" />
 
@@ -19,7 +19,7 @@
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title"
-        content="List of All Agents - {{ env('APP_NAME') }}" />
+        content="List of All Agents | {{ env('APP_NAME') }}" />
     <meta property="og:description"
         content="Browse the complete ZZZ agents list. Discover high-quality Zenless Zone Zero character wallpapers featuring Anby, Nicole, Billy, Ellen, Nekomata, and more." />
     <meta property="og:url" content="{{ route('characters.index') }}" />
@@ -27,7 +27,7 @@
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title"
-        content="List of All Agents - {{ env('APP_NAME') }}" />
+        content="List of All Agents | {{ env('APP_NAME') }}" />
     <meta name="twitter:description"
         content="Browse the complete ZZZ agents list. Discover high-quality Zenless Zone Zero character wallpapers featuring Anby, Nicole, Billy, Ellen, Nekomata, and more." />
     <meta name="twitter:url" content="{{ route('characters.index') }}" />

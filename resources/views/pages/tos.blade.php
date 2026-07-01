@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Terms of Service - {{ env('APP_NAME') }}</title>
+    <title>Terms of Service | {{ env('APP_NAME') }}</title>
 
     <meta name="description" content="Review the Terms of Service for {{ env('APP_NAME') }}. Learn about your rights and responsibilities regarding user accounts, content submission, and copyright on our Zenless Zone Zero wallpaper platform.">
     <meta name="keywords" content="zzz wallpapers, terms of service, tos, user agreement, rules, copyright policy, zzz wallpaper terms, zenless zone zero rules">
@@ -12,13 +12,13 @@
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:title" content="Terms of Service - {{ env('APP_NAME') }}">
+    <meta property="og:title" content="Terms of Service | {{ env('APP_NAME') }}">
     <meta property="og:description" content="Learn about your rights and responsibilities regarding user accounts, content, and copyright on {{ env('APP_NAME') }}.">
     <meta property="og:site_name" content="{{ env('APP_NAME') }}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="{{ url()->current() }}">
-    <meta name="twitter:title" content="Terms of Service - {{ env('APP_NAME') }}">
+    <meta name="twitter:title" content="Terms of Service | {{ env('APP_NAME') }}">
     <meta name="twitter:description" content="Learn about your rights and responsibilities regarding user accounts, content, and copyright on {{ env('APP_NAME') }}.">
 
     @include('components.file-assets')

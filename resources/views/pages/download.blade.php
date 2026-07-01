@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download App - {{ env('APP_NAME') }}</title>
+    <title>Download App | {{ env('APP_NAME') }}</title>
     <meta name="description" content="Download {{ env('APP_NAME') }} to access thousands of premium Zenless Zone Zero wallpapers with faster loading, offline favorites, and push notifications for new updates.">
     <link rel="canonical" href="{{ url()->current() }}">
     <meta name="robots" content="index, follow, max-image-preview:large">
 
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="{{ env('APP_NAME') }}">
-    <meta property="og:title" content="Download App - {{ env('APP_NAME') }}">
+    <meta property="og:title" content="Download App | {{ env('APP_NAME') }}">
     <meta property="og:description" content="Download {{ env('APP_NAME') }} to access thousands of premium Zenless Zone Zero wallpapers with faster loading, offline favorites, and push notifications for new updates.">
     <meta property="og:url" content="{{ url()->current() }}">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Download App - {{ env('APP_NAME') }}">
+    <meta name="twitter:title" content="Download App | {{ env('APP_NAME') }}">
     <meta name="twitter:description" content="Download {{ env('APP_NAME') }} to access thousands of premium Zenless Zone Zero wallpapers with faster loading, offline favorites, and push notifications for new updates.">
 
     <link rel="alternate" hreflang="en" href="{{ url()->current() }}">

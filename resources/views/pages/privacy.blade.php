@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Privacy Policy - {{ env('APP_NAME') }}</title>
+    <title>Privacy Policy | {{ env('APP_NAME') }}</title>
 
     <meta name="description" content="Read the Privacy Policy for {{ env('APP_NAME') }}. Understand what information we collect, how we use it, and your rights related to your data on our Zenless Zone Zero wallpaper platform.">
     <meta name="keywords" content="zzz wallpapers, privacy policy, zzz wallpapers privacy, data protection, user privacy, zzz wallpaper privacy, zenless zone zero privacy">
@@ -12,13 +12,13 @@
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:title" content="Privacy Policy - {{ env('APP_NAME') }}">
+    <meta property="og:title" content="Privacy Policy | {{ env('APP_NAME') }}">
     <meta property="og:description" content="Understand what information we collect at {{ env('APP_NAME') }}, how we use it, and your rights related to your data.">
     <meta property="og:site_name" content="{{ env('APP_NAME') }}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="{{ url()->current() }}">
-    <meta name="twitter:title" content="Privacy Policy - {{ env('APP_NAME') }}">
+    <meta name="twitter:title" content="Privacy Policy | {{ env('APP_NAME') }}">
     <meta name="twitter:description" content="Understand what information we collect at {{ env('APP_NAME') }}, how we use it, and your rights related to your data.">
 
     @include('components.file-assets')

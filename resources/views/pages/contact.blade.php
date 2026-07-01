@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Contact Us - {{ env('APP_NAME') }}</title>
+    <title>Contact Us | {{ env('APP_NAME') }}</title>
 
-    <meta name="title" content="Contact Us - {{ env('APP_NAME') }}">
+    <meta name="title" content="Contact Us | {{ env('APP_NAME') }}">
     <meta name="description" content="Have a question, feedback, or artist inquiry? Contact the {{ env('APP_NAME') }} team. We are here to help with any Zenless Zone Zero wallpaper related questions.">
     <meta name="keywords" content="zzz wallpapers, contact zzz wallpapers, zzz wallpaper feedback, get in touch, zenless zone zero support, game wallpaper inquiry">
     <meta name="robots" content="index, follow">
@@ -15,13 +15,13 @@
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ route('contact') }}">
-    <meta property="og:title" content="Contact Us - {{ env('APP_NAME') }}">
+    <meta property="og:title" content="Contact Us | {{ env('APP_NAME') }}">
     <meta property="og:description" content="Get in touch with the {{ env('APP_NAME') }} team for questions, feedback, or support.">
     <meta property="og:site_name" content="{{ env('APP_NAME') }}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="{{ route('contact') }}">
-    <meta name="twitter:title" content="Contact Us - {{ env('APP_NAME') }}">
+    <meta name="twitter:title" content="Contact Us | {{ env('APP_NAME') }}">
     <meta name="twitter:description" content="Get in touch with the {{ env('APP_NAME') }} team for questions, feedback, or support.">
 
     @include('components.file-assets')
