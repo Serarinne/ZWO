@@ -168,7 +168,7 @@ class WallpaperController extends Controller
                 ->select(['id', 'slug'])
                 ->findOrFail($id);
 
-        return redirect()->route('wallpapers.show', ['slug' => $wallpaper->slug]);
+        return redirect()->route('wallpapers.view', ['slug' => $wallpaper->slug]);
     }
 
     public function download(string $id): RedirectResponse
